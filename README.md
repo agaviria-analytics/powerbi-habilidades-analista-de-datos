@@ -31,8 +31,7 @@ Fue construido paso a paso como parte de una práctica intensiva de visualizaci�
 Relaciones creadas:
 - `ventas[id_cliente]` → `clientes[id_cliente]`
 - `ventas[id_producto]` → `productos[id_producto]`
-
-![Modelo Estrella](Modelo.PNG)
+- `ventas[fecha]` → `Calendario[Date]`
 
 ---
 
@@ -147,7 +146,43 @@ Etiqueta Producto = productos[nombre] & " (" & productos[categoria] & ")"
 ✔️ Publica en Power BI Service para ver el dashboard desde celular
 
 ---
+## 🗂 Vista de tablas cargadas desde SQL Server
 
+📌 Consultas ejecutadas en SQL Server Management Studio:
+```sql
+SELECT * FROM ventas;
+SELECT * FROM clientes;
+SELECT * FROM productos;
+```
+
+![Tablas SQL](Tablas_sql.PNG)
+
+---
+
+## 📐 Modelo Estrella
+
+Estructura del modelo de datos en Power BI:  
+Una tabla de hechos (`ventas`) y dos tablas de dimensiones (`clientes`, `productos`).
+
+![Modelo Estrella](Modelo.PNG)
+
+---
+
+## 🖥 Dashboard Power BI – Vista general
+
+🧭 Visualización completa del dashboard con KPIs, mapa, gráfico de líneas y filtros:
+
+![Dashboard](Dashboard.PNG)
+
+---
+
+## 🧾 Storytelling y narrativa visual
+
+📌 Página de resumen ejecutivo con narrativa automática sobre el análisis realizado.
+
+![Storytelling](Storytelling.PNG)
+
+---
 ## 📁 Estructura del repositorio
 
 ```
