@@ -162,7 +162,7 @@ SELECT * FROM productos;
 ## 📐 Modelo Estrella
 
 Estructura del modelo de datos en Power BI:  
-Una tabla de hechos (`ventas`) y dos tablas de dimensiones (`clientes`, `productos`).
+Una tabla de hechos (`ventas`) y tres tablas de dimensiones (`clientes`, `productos`,`calendario`).
 
 ![Modelo Estrella](Modelo.PNG)
 
