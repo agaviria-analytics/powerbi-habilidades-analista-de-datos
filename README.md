@@ -32,7 +32,7 @@ Relaciones creadas:
 - `ventas[id_cliente]` → `clientes[id_cliente]`
 - `ventas[id_producto]` → `productos[id_producto]`
 
-![Modelo Estrella](Modelo-ER-análisis-ventas.png)
+![Modelo Estrella](Modelo.PNG)
 
 ---
 
