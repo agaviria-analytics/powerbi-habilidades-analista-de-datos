@@ -200,5 +200,4 @@ Una tabla de hechos (`ventas`) y dos tablas de dimensiones (`clientes`, `product
 ## 👨‍💼 Autor
 
 **Héctor Alejandro Gaviria Marín**  
-🔎 Portafolio profesional: en proceso de publicación  
 💼 Proyecto orientado a roles de Analista de Datos, Visualizador BI o Reporting Analyst
