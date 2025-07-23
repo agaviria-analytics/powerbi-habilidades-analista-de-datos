@@ -171,7 +171,7 @@ Una tabla de hechos (`ventas`) y dos tablas de dimensiones (`clientes`, `product
 ## 🖥 Dashboard Power BI – Vista general
 
 🧭 Visualización completa del dashboard con KPIs, mapa, gráfico de líneas y filtros:
-
+<img src="Dashboard.PNG" alt="Dashboard Power BI" width="800"/>
 ![Dashboard](Dashboard.PNG)
 
 ---
